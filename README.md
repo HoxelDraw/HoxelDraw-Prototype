@@ -1,7 +1,7 @@
 # HoxelDraw Prototype
 
 ## IMPORTANT:
-## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/EULA.md), which is included at the bottom of this README and is bundled with each release.
+## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
 ### beta.1.0
