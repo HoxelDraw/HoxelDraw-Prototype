@@ -4,16 +4,22 @@
 ## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
-### beta.1.0
-### April 3, 2023
+### beta.2.0
+### April 17, 2023
 ## Overview
 HoxelDraw is currently supported only in Windows
 
 ## Main Menu
 
 ### File
+
+**New**: Clears the existing scene
+
 **Open**: Opens a File Dialog window to find and load an existing .hox file
+
 **Save As**: Opens a File Dialog window to choose a path to save the current scene to a .hox file
+
+**Import Palette**: Opens a File Dialog window to choose a .PNG file for a custom color palette. The first 255 pixels are used to populate the color palette.
 
 ## Cross Section View
 
