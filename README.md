@@ -4,8 +4,8 @@
 ## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
-### beta.2.0
-### April 17, 2023
+### beta.3.0
+### May 1, 2023
 ## Overview
 HoxelDraw is currently supported only in Windows
 
@@ -21,6 +21,13 @@ HoxelDraw is currently supported only in Windows
 
 **Import Palette**: Opens a File Dialog window to choose a .PNG file for a custom color palette. The first 255 pixels are used to populate the color palette.
 
+### Edit
+
+**Undo**: Undo the previous hoxel tool action
+
+**Redo**: Redo the previously-undone hoxel tool action
+(NOTE: undo and redo only works for Hoxel Tools, but not for other actions such as grid resizing, grid scaling, or grid clearing)
+
 ## Cross Section View
 
 ### 3D View Controls
@@ -31,6 +38,9 @@ HoxelDraw is currently supported only in Windows
 **Mouse wheel**: Zoom (dolly) the 3D camera
 
 **Left-click**: Use the active tool (see the Tools Panel). Many tools also have click+drag actions.
+
+### Focus Slicing Plane on Hoxel
+**Ctrl + right-click** any hoxel in this view to center the slicing hyperplane on this hoxel.
 
 ## Cross Section View Controls
 
@@ -78,6 +88,8 @@ Select a tool to begin using it in either the Cross Section view or the Slice Gr
 
 **Hoxel Box**: Click + drag to create a 4D box of hoxels. The first corner is the highlighted hoxel when the mouse is first clicked. The opposite corner is the currently-highlighted hoxel. Release the left mouse button to create the box.
 
+**Eyedropper**: Left-click any hoxel to change the active material to the material of this hoxel.
+
 ### Tool Mode
 Select a Tool Mode to determine the effect of the active tool.
 
@@ -94,10 +106,13 @@ Select a Tool Mode to determine the effect of the active tool.
 
 ## Scene Panel
 
+**WARNING**: These operations cannot be undone. Save your hoxel model before proceeding.
+
 **Grid Size**: The size of the current hoxel grid. To change the grid size, click in the text field, delete the existing grid size, then type in the new grid size.
 
 **Clear Scene**: Click this button to clear everything in the hoxel grid.
 
+**Scale Grid**: Set a scale factor and click Scale Grid to scale up the entire hoxel grid.
 
 # HoxelDraw End-User License Agreement
 
