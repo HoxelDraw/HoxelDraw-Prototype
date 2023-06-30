@@ -1,6 +1,6 @@
 HoxelDraw End-User License Agreement
 
-Last updated: 3rd April 2023
+Last updated: 30th June 2023
 
 This End-User License Agreement (referred to as the "EULA") is a legally binding agreement between you, the Licensee, an individual customer or entity, and the HoxelSoft, the company, and the author of HoxelDraw, the Software, which may include associated media, printed materials, and online or electronic documentation. This Agreement is a legally binding contract that includes terms that limit your legal rights and Licensors' liability to you, and shall govern all access to and use of this Software. You hereby agree, without limitation or alteration, to all the terms and conditions contained herein.
 
@@ -30,7 +30,7 @@ Reproduction and Distribution:  Licensee may not duplicate or re-distribute copi
 
 Licensee Limitation: The Licensee may not:
 
-1. Use the Licensed Product for any purpose other than personal and non-commercial purposes;
+1. Use the Licensed Product for any purpose other than personal and commercial purposes;
 2. Use the Licensed Product for any illegal or unlawful purpose;
 3. Gather factual content or any other portion of the Licensed product by any automated means, including but not limited to database scraping or screen scraping; or
 4. Reverse engineer, decompile, or disassemble Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding the limitation.
