@@ -4,15 +4,23 @@ IMPORTANT:
 By downloading and running HoxelDraw, you agree to the terms outlined in the HoxelDraw End-User License Agreement which is bundled with each release.
 
 User's Guide
-beta.1.0
-April 3, 2023
+beta.4.0
+June 30, 2023
 Overview
     HoxelDraw is currently supported only in Windows
 
 Main Menu
     File
+        New: Clears the existing scene
         Open: Opens a File Dialog window to find and load an existing .hox file
         Save As: Opens a File Dialog window to choose a path to save the current scene to a .hox file
+        Import Palette: Opens a File Dialog window to choose a .PNG file for a custom color palette. The first 255 pixels are used to populate the color palette.
+        Generate: Open a 4D shape generation popup
+	Export > Slice Grid: Open a Slice Grid export/render popup. Specify the scale (in pixels) and distance between minor grids (in pixels)
+
+    Edit
+        Undo: Undo the previous action
+        Redo: Redo the previously-undone action
 
 Cross Section View
     3D View Controls
@@ -20,6 +28,8 @@ Cross Section View
         Right-click + drag: Orbit the 3D camera
         Mouse wheel: Zoom (dolly) the 3D camera
         Left-click: Use the active tool (see the Tools Panel). Many tools also have click+drag actions.
+    Focus Slicing Plane on Hoxel
+        Ctrl + right-click any hoxel in this view to center the slicing hyperplane on this hoxel.
 
 Cross Section View Controls
     Slice Rotation sliders
@@ -50,6 +60,7 @@ Tools Panel
         Hoxel Brush: Left-Click to use the tool (see Tool Mode) on the highlighted hoxel or hoxel grid location. Left-Click + drag to use the tool on each hoxel the cursor hovers over. Adjust the Brush Size to use the hoxel brush on a larger area centered around the highlighted hoxel. The Brush Size is the side length of a 4D hypercube brush tip.
         Hoxel Line: Left-Click + drag to create a thin line of hoxels in a straight 4D line between two hoxels. The start point is the highlighted hoxel when the mouse is first clicked. The end point is the currently-highlighted hoxel. Release the left mouse button to create the line.
         Hoxel Box: Click + drag to create a 4D box of hoxels. The first corner is the highlighted hoxel when the mouse is first clicked. The opposite corner is the currently-highlighted hoxel. Release the left mouse button to create the box.
+        Eyedropper: Click any hoxel to get its color and make that color the active material.
 
     Tool Mode
         Select a Tool Mode to determine the effect of the active tool.
@@ -64,3 +75,4 @@ Tools Panel
 Scene Panel
     Grid Size: The size of the current hoxel grid. To change the grid size, click in the text field, delete the existing grid size, then type in the new grid size.
     Clear Scene: Click this button to clear everything in the hoxel grid.
+    Scale Grid: Set a scale factor and click Scale Grid to scale up the entire hoxel grid.
