@@ -4,8 +4,8 @@
 ## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
-### beta.3.0
-### May 1, 2023
+### beta.4.0
+### June 30, 2023
 ## Overview
 HoxelDraw is currently supported only in Windows
 
@@ -21,12 +21,15 @@ HoxelDraw is currently supported only in Windows
 
 **Import Palette**: Opens a File Dialog window to choose a .PNG file for a custom color palette. The first 255 pixels are used to populate the color palette.
 
+**Generate**: Open a 4d shape generation popup
+
+**Export > Slice Grid**: Open a Slice Grid export/render popup. Specify the scale (in pixels) and distance between minor grids (in pixels)
+
 ### Edit
 
-**Undo**: Undo the previous hoxel tool action
+**Undo**: Undo the previous action
 
-**Redo**: Redo the previously-undone hoxel tool action
-(NOTE: undo and redo only works for Hoxel Tools, but not for other actions such as grid resizing, grid scaling, or grid clearing)
+**Redo**: Redo the previously-undone action
 
 ## Cross Section View
 
@@ -116,7 +119,7 @@ Select a Tool Mode to determine the effect of the active tool.
 
 # HoxelDraw End-User License Agreement
 
-### Last updated: 3rd April 2023
+### Last updated: 30th June 2023
 
 This End-User License Agreement (referred to as the "EULA") is a legally binding agreement between you, the Licensee, an individual customer or entity, and the HoxelSoft, the company, and the author of HoxelDraw, the Software, which may include associated media, printed materials, and online or electronic documentation. This Agreement is a legally binding contract that includes terms that limit your legal rights and Licensors' liability to you, and shall govern all access to and use of this Software. You hereby agree, without limitation or alteration, to all the terms and conditions contained herein.
 
@@ -146,7 +149,7 @@ Reproduction and Distribution:  Licensee may not duplicate or re-distribute copi
 
 Licensee Limitation: The Licensee may not:
 
-1. Use the Licensed Product for any purpose other than personal and non-commercial purposes;
+1. Use the Licensed Product for any purpose other than personal and commercial purposes;
 2. Use the Licensed Product for any illegal or unlawful purpose;
 3. Gather factual content or any other portion of the Licensed product by any automated means, including but not limited to database scraping or screen scraping; or
 4. Reverse engineer, decompile, or disassemble Software, except and only to the extent that such activity is expressly permitted by applicable law notwithstanding the limitation.
