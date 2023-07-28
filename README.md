@@ -1,11 +1,13 @@
 # HoxelDraw Prototype
 
+### Download the latest release [here](https://github.com/HoxelDraw/HoxelDraw-Prototype/releases)
+
 ## IMPORTANT:
 ## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
-### beta.4.0
-### June 30, 2023
+### beta.5.0
+### July 27, 2023
 ## Overview
 HoxelDraw is currently supported only in Windows
 
@@ -13,11 +15,13 @@ HoxelDraw is currently supported only in Windows
 
 ### File
 
-**New**: Clears the existing scene
+**New**: Opens a new workspace
 
 **Open**: Opens a File Dialog window to find and load an existing .hox file
 
-**Save As**: Opens a File Dialog window to choose a path to save the current scene to a .hox file
+**Save**: Saves the current workspace to disk
+
+**Save As**: Opens a File Dialog window to choose a path to save the current workspace to a new .hox file
 
 **Import Palette**: Opens a File Dialog window to choose a .PNG file for a custom color palette. The first 255 pixels are used to populate the color palette.
 
@@ -80,6 +84,8 @@ The smaller Axis Jack (defaults to Red and Green) shows the screen directions of
 
 **Jump to Row/Column button**: Click Select to activate the selection mode. Click the Row/Column button to toggle between row selection and column selection modes. Use the cursor to select the desired row/column, then click on the row/column to align the slicing hyperplane with that row/column.
 
+**Checkerboard Background**: Toggle a checkerboard background to add contrast between empty hoxels and dark-colored hoxels.
+
 ## Tools Panel
 
 ### Tools
@@ -89,7 +95,7 @@ Select a tool to begin using it in either the Cross Section view or the Slice Gr
 
 **Hoxel Line**: Left-Click + drag to create a thin line of hoxels in a straight 4D line between two hoxels. The start point is the highlighted hoxel when the mouse is first clicked. The end point is the currently-highlighted hoxel. Release the left mouse button to create the line.
 
-**Hoxel Box**: Click + drag to create a 4D box of hoxels. The first corner is the highlighted hoxel when the mouse is first clicked. The opposite corner is the currently-highlighted hoxel. Release the left mouse button to create the box.
+**Hoxel Box**: Click + drag to create a 4D box of hoxels. The first corner is the highlighted hoxel when the mouse is first clicked. The opposite corner is the currently-highlighted hoxel. Release the left mouse button to create the box. The Fill Mode lets you choose between Filled, Hollow, and Wireframe boxes.
 
 **Eyedropper**: Left-click any hoxel to change the active material to the material of this hoxel.
 
@@ -102,14 +108,12 @@ Select a Tool Mode to determine the effect of the active tool.
 
 **Color**: Change the color of existing hoxels to the active material (see Materials)
 
-### Materials
+## Materials Panel
 **Current Material**: The color (diffuse color AKA albedo) that will be used by the active tool.
 
 **Palette**: The colors/materials available for use. Click a color in the palette to change the Current Material.
 
 ## Scene Panel
-
-**WARNING**: These operations cannot be undone. Save your hoxel model before proceeding.
 
 **Grid Size**: The size of the current hoxel grid. To change the grid size, click in the text field, delete the existing grid size, then type in the new grid size.
 
