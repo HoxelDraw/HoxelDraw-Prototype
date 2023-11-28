@@ -6,8 +6,8 @@
 ## By downloading and running HoxelDraw, you agree to the terms outlined in the [HoxelDraw End-User License Agreement](https://github.com/HoxelDraw/HoxelDraw-Prototype/blob/master/EULA.md), which is included at the bottom of this README and is bundled with each release.
 
 # User's Guide
-### beta.5.0
-### July 27, 2023
+### beta.6.0
+### November 27, 2023
 ## Overview
 HoxelDraw is currently supported only in Windows
 
@@ -31,6 +31,8 @@ HoxelDraw is currently supported only in Windows
 
 ### Edit
 
+**Preferences**: Enable/Disable VSync
+
 **Undo**: Undo the previous action
 
 **Redo**: Redo the previously-undone action
@@ -40,14 +42,18 @@ HoxelDraw is currently supported only in Windows
 ### 3D View Controls
 **Hover**: highlight the hoxel under the cursor. When using a hoxel tool (see Tools Panel), the highlighted hoxel will be modified first.
 
+**Middle-click + drag**: Pan the 3D camera
+
 **Right-click + drag**: Orbit the 3D camera
 
 **Mouse wheel**: Zoom (dolly) the 3D camera
 
 **Left-click**: Use the active tool (see the Tools Panel). Many tools also have click+drag actions.
 
-### Focus Slicing Plane on Hoxel
-**Ctrl + right-click** any hoxel in this view to center the slicing hyperplane on this hoxel.
+### Focus on Hoxel
+**Ctrl + right-click** any hoxel in this view to center the 3D camera on this hoxel.
+**Ctrl + Shift + right-click** any hoxel in this view to center the slicing hyperplane on this hoxel.
+
 
 ## Cross Section View Controls
 
@@ -60,6 +66,16 @@ The slicing hyperplane rotates around the Slice Position. Click and drag the han
 ### Slice Offset slider
 The slice offset slider translates the slicing hyperplane along its local W axis (instead of along the global W axis). Again, **Ctrl + click** this slider to manually enter a value.
 
+### Grid Overlays
+
+**Show Grid**: Toggle grid lines for the outlines of filled hoxels
+
+**Show Edges**: Toggle thick edge lines for the outlines of hoxel surcells
+    
+**Show Bounds Grid**: Toggle grid lines for the background bounds grid
+    
+**Show Bounds Edges**: Toggle thick edge lines for the background bounding box
+
 ## Slice Grid View
 
 **Hover**: highlight the hoxel under the cursor. When using a hoxel tool (see Tools Panel), the highlighted hoxel will be modified first.
@@ -67,10 +83,6 @@ The slice offset slider translates the slicing hyperplane along its local W axis
 **Right-click + drag**: Pan the entire Slice Grid (AKA the **Major View**)
 
 **Mouse wheel**: Zoom the entire Slice Grid
-
-**Ctrl + Right-click + drag**: Pan each individual slice (AKA **Minor Views**) within the Slice Grid
-
-**Ctrl + Mouse wheel**: Zoom each individual minor view within the Slice Grid
 
 The Double Axis Jack indicates axes within the Slice Grid. The larger Axis Jack (defaults to Yellow and Blue) shows the screen directions of the Z (blue) and W (yellow) axes and only applies to the whole grid. A minor view’s horizontal and vertical position within the major view indicates its Z and W coordinates.
 
@@ -84,7 +96,11 @@ The smaller Axis Jack (defaults to Red and Green) shows the screen directions of
 
 **Jump to Row/Column button**: Click Select to activate the selection mode. Click the Row/Column button to toggle between row selection and column selection modes. Use the cursor to select the desired row/column, then click on the row/column to align the slicing hyperplane with that row/column.
 
-**Checkerboard Background**: Toggle a checkerboard background to add contrast between empty hoxels and dark-colored hoxels.
+**Show Transparency**: Toggle a checkerboard background to add contrast between empty hoxels and dark-colored hoxels
+
+**Show Grid**: Toggle background grid lines for hoxel grid locations
+
+**Show Major View**: Toggle major view grid lines
 
 ## Tools Panel
 
